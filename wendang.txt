@@ -1,0 +1,179 @@
+
+gcc -o 1-1 1-1.c
+“预处理-编译-汇编-链接”
+./1-1
+在 Linux 的终端中，输入可执行文件的文件名称就可以运行该文件，效果等同于桌面的双击快捷方式。
+
+
+
+$ gedit test.py
+$ python3 test.py
+namelist = ['Sophia','Emma','Olivia','Ava','Mia','Isabella','Zoe','Lily','Emily','Madison','Jackson','Aiden','Liam','Lucas','Noah','Mason','Ethan','Caden','Logan','Jacob']
+##点名册
+for i in namelist:
+    print(i)
+	
+	
+	 range() 函数
+如果需要处理一组数字列表，并且数字列表满足一定的规律，可以使用 Python 的内置函数 range()（范围）。
+
+使用 range(x) 函数，可以生成一个从 0 到 x-1 的整数序列，比如我们想打印 0 到 9 的数，可以这样写：
+
+
+
+
+
+for a in range(10):
+    print(a)
+	
+	
+	
+	for a in range(1,11):
+    print(a)
+	
+	
+	
+	
+	
+	
+	
+逢7跳过	
+for a in range(1,101):
+    if a%7 == 0:
+        continue
+    elif a%10 ==7 :
+        continue  
+    elif a//10 ==7 :
+        continue  
+    print(a)	
+	
+	
+	
+	
+	
+	mkdir Demo
+cd Demo
+gedit README.md
+git init	
+	这是 Git 的初始化操作，作用是将一个已存在文件夹，置于 Git 的控制管理之下。
+
+再 ls -la 命令，会发现一个名叫 .git 的目录被创建了，这意味着仓库初始化成功。可以进入到 .git 目录查看下有哪些内容。
+	
+ git add
+使用 git add + 文件名/目录名 命令，可以将你需要同步的文件，添加到本地的暂存区。我们先进入
+
+
+cd /home/shiyanlou/Demo
+git add README.md
+输入 git status ，可以检测当前目录和暂存区的状态，查看哪些修改被暂存了：
+
+
+git commit 提交是你工作的一个里程碑 —— 每当你完成一些工作，都可以创建一次提交，保存当前的版本。
+
+
+
+git commit 提交是你工作的一个里程碑 —— 每当你完成一些工作，都可以创建一次提交，保存当前的版本。
+
+$ git config --global user.name "YourName"
+$ git config --global user.email "YourEmail@xxx.com"
+
+git commit -m "first commit"
+
+
+git commit -m "first commit"
+
+
+git remote add origin 仓库链接
+
+ push 命令
+push 顾名思义，就是推送， 使用 push 可以把本地仓库推送到远端仓库中。
+
+具体命令如下：
+git push origin master
+
+
+git clone [url]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
